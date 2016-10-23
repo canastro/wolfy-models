@@ -2,6 +2,7 @@ const graffitiSchema = require('./schema/graffiti-schema');
 const graphQLSchema = require('./schema/graphql-schema');
 
 const Article = require('./schema/article');
+const Candle = require('./technical-analysis/candle');
 const Job = require('./schema/job');
 const Order = require('./schema/order');
 const Price = require('./schema/price');
@@ -16,6 +17,7 @@ module.exports = {
     graphQLSchema,
 
     Article,
+    Candle,
     Job,
     Order,
     Price,
