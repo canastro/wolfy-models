@@ -12,6 +12,8 @@ const ArticleSchema = new Schema({
             return moment().startOf('hour');
         }
     },
+    title: String,
+    text: String,
     url: String,
     sentiment: { type: Number, default: 0 }
 }, { timestamps: true });
